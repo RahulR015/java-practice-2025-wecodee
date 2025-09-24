@@ -90,5 +90,59 @@ It allows users to view available buses, book tickets for a specific date, and e
 * **Date handling** using `SimpleDateFormat`
 * **Method design** for checking availability
 
+Here’s a professional **README.md** for your University Management System project:
+
+---
+
+# Project 3: University Management System (Java)
+
+This is a **console-based Java application** that simulates a simple university management system.
+It allows managing **professors, students, and courses**, enabling students to enroll in courses taught by professors.
+
+
+## 🚀 Features
+
+* Add and manage **Professor** details:
+  * Name, Age, Email, Professor ID
+  * Assign multiple courses to professors
+* Add and manage **Student** details:
+  * Name, Age, Email, Student ID
+  * Enroll in multiple courses offered by professors
+* View courses assigned to professors and enrolled by students
+* Prevent over-enrollment of courses for both students and professors
+
+
+## 📝 How It Works
+
+1. The system prompts for **professor details** including name, age, email, and professor ID.
+2. Each professor is assigned **one or more courses** with course name and course code.
+3. The system prompts for **student details** including name, age, email, and student ID.
+4. Students can **choose courses** from the list of courses offered by professors.
+5. The program ensures:
+
+   * A student cannot enroll in more courses than allowed (limit of 5).
+   * A professor cannot assign more courses than allowed (limit of 5).
+6. Students can view the courses they are enrolled in, and professors can view the courses they teach.
+7. 
+
+## 📊 Sample Output
+
+* Professors are displayed along with their assigned courses
+* Students can select professors and enroll in available courses
+* Enrollment confirmation messages are displayed
+* Lists of courses per student and per professor are viewable
+
+
+
+## 📝 Concepts Covered
+
+* **Object-Oriented Programming (OOP)**:
+  * Classes and Objects (`Professor`, `Student`, `Course`, `Person`)
+  * Inheritance (`Student` and `Professor` extend `Person`)
+  * Encapsulation (private fields with getters/setters)
+* **Arrays and Array Management** for storing courses and enrollments
+* **User Input Handling** using `Scanner`
+* **Basic Validation** for course limits and enrollment
+
 
 
