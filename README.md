@@ -37,8 +37,58 @@ Balance: 8000.0
 
 # 📝 Concepts Covered
 
-# Encapsulation – private fields with public getters/setters
+**Encapsulation** – private fields with public getters/setters
 
-# Method Overloading – deposit method overloaded for double and String types
+**Method Overloading** – deposit method overloaded for double and String types
 
-# Basic I/O – System.out for output
+**Basic I/O** – System.out for output
+
+
+# Project NO:2 Bus Booking System (Java)
+
+This is a **console-based Java application** that simulates a simple bus booking system.
+It allows users to view available buses, book tickets for a specific date, and ensures seat availability before confirming a booking.
+
+---
+
+## 🚀 Features
+
+* Display all available buses with details such as:
+
+  * Bus number
+  * AC availability
+  * Seat capacity
+* Book tickets for a specific bus on a chosen date
+* Prevent overbooking by checking seat availability
+* Handle multiple bookings efficiently
+
+---
+
+## 📝 How It Works
+
+1. The program initializes a list of buses with predefined capacity and AC details.
+2. Users can view all buses and their details.
+3. Users are prompted to enter their name, select a bus, and specify a travel date.
+4. The system checks if seats are available on the chosen bus and date.
+5. If seats are available, the booking is confirmed; otherwise, the user is informed to choose another date or bus.
+
+
+## 📊 Sample Output
+
+* Display list of buses with bus number, AC availability, and capacity
+* Success or failure messages for booking attempts
+* Updated seat availability for selected buses
+
+
+# 📝 Concepts Covered
+
+* **Object-Oriented Programming (OOP)**
+
+  * Classes (`Bus`, `Booking`)
+  ***Encapsulation** (private fields with public methods)
+* **ArrayList usage** for dynamic storage of buses and bookings
+* **Date handling** using `SimpleDateFormat`
+* **Method design** for checking availability
+
+
+
